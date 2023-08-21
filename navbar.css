@@ -1,0 +1,32 @@
+*{
+    margin:0;
+    padding : 0;
+    box-sizing : 0;
+}
+
+.navbar{
+    display:flex;
+    justify-content:space-around;
+    align-items:start;
+    height : 100px;
+    color : rgb(127, 20, 20);
+    background-color: antiquewhite;
+}
+
+.nav-links{
+    display:flex;
+    justify-content: flex-end;
+    list-style: none;
+    width: 80%;
+    height: 100%;
+    
+} 
+
+.born,.Girls,.boys{
+ text-decoration: none;
+ color:brown;
+ font-size: 20px;
+ padding: 20px;
+ margin:0,10px;
+ cursor:pointer; 
+}
